@@ -1,5 +1,5 @@
 #gallery{
-    background-image:url(/images/gallery.jpg);
+    background-image:url(photographerWebsite/images/gallery.jpg);
 }
 
 #main-container{
@@ -95,32 +95,32 @@
 }
 
 #slide1 div:nth-child(2){
-    background-image:url(/images/gallery/slide1/pic1.jpg);
+    background-image:url(photographerWebsite/images/gallery/slide1/pic1.jpg);
 }
 
 #slide1 div:nth-child(3){
-    background-image:url(/images/gallery/slide1/pic2.jpg);
+    background-image:url(photographerWebsite/images/gallery/slide1/pic2.jpg);
     grid-row: span 2;
 }
 
 #slide1 div:nth-child(4){
-    background-image:url(/images/gallery/slide1/pic4.jpg);
+    background-image:url(photographerWebsite/images/gallery/slide1/pic4.jpg);
     grid-row: span 2;
 }
 
 #slide1 div:nth-child(5){
-    background-image:url(/images/gallery/slide1/pic5.jpg);
+    background-image:url(photographerWebsite/images/gallery/slide1/pic5.jpg);
     grid-column: span 2;
 }
 
 #slide1 div:nth-child(6){
-    background-image:url(/images/gallery/slide1/pic6.jpg);
+    background-image:url(photographerWebsite/images/gallery/slide1/pic6.jpg);
 }
 
 #slide2 div{
     width:100%;
     height:100%;
-    background-image:url(/images/gallery/slide2/pic1.jpg);
+    background-image:url(photographerWebsite/images/gallery/slide2/pic1.jpg);
     background-size:cover;
     background-position:center;
 }
@@ -139,27 +139,27 @@
 }
 
 #slide3 div:nth-child(1){
-    background-image:url(/images/gallery/slide3/pic1.jpg);
+    background-image:url(photographerWebsite/images/gallery/slide3/pic1.jpg);
 }
 
 #slide3 div:nth-child(2){
-    background-image:url(/images/gallery/slide3/pic2.jpg);
+    background-image:url(photographerWebsite/images/gallery/slide3/pic2.jpg);
 }
 
 #slide3 div:nth-child(3){
-    background-image:url(/images/gallery/slide3/pic3.jpg);
+    background-image:url(photographerWebsite/images/gallery/slide3/pic3.jpg);
 }
 
 #slide3 div:nth-child(4){
-    background-image:url(/images/gallery/slide3/pic4.jpg);
+    background-image:url(photographerWebsite/images/gallery/slide3/pic4.jpg);
 }
 
 #slide3 div:nth-child(5){
-    background-image:url(/images/gallery/slide3/pic5.jpg);
+    background-image:url(photographerWebsite/images/gallery/slide3/pic5.jpg);
 }
 
 #slide3 div:nth-child(6){
-    background-image:url(/images/gallery/slide3/pic6.jpg);
+    background-image:url(photographerWebsite/images/gallery/slide3/pic6.jpg);
 }
 
 #slide4{
@@ -175,11 +175,11 @@
 }
 
 #slide4 div:nth-child(1){
-    background-image:url(/images/gallery/slide4/pic2.jpg);
+    background-image:url(photographerWebsite/images/gallery/slide4/pic2.jpg);
 }
 
 #slide4 div:nth-child(2){
-    background-image:url(/images/gallery/slide4/pic1.jpg);
+    background-image:url(photographerWebsite/images/gallery/slide4/pic1.jpg);
 }
 
 /* media queries */
