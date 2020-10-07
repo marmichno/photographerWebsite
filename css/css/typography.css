@@ -1,0 +1,138 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-family: 'Anton', sans-serif;
+    font-size:4rem;
+    color:#2387EA;
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 1);
+    line-height:4rem;
+}
+
+.written{
+    font-family: 'Anton', sans-serif;
+    font-size:4rem;
+    color:#2387EA;
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 1);
+    line-height:4rem;
+    opacity:0;
+    transition:all 0.4s ease;
+}
+
+span.fade{
+    opacity:1;
+}
+
+p{
+    font-size:1.25rem;
+    color:rgba(219, 219, 219);
+}
+
+/* media queries */
+
+@media (max-width: 1672px) {
+    p{
+        font-size:1rem;
+    }
+    h1{
+        font-size:2.5rem;
+        line-height:2.5rem;
+    }
+    .written{
+        font-size:2.5rem;
+        line-height:2.5rem;
+    }
+}
+@media (max-width: 978px){
+    p{
+        font-size:0.9rem;
+    }
+    h1{
+        font-size:2rem;
+        line-height:2rem;
+    }
+    .written{
+        font-size:2rem !important;
+        line-height:2rem !important;
+    }
+}
+@media (max-width: 978px){
+    p{
+        font-size:0.9rem;
+    }
+    h1{
+        font-size:2rem;
+        line-height:2rem;
+    }
+    .written{
+        font-size:1.8rem !important;
+        line-height:1.8rem !important;
+    }
+}
+@media(max-width: 360px){
+    p{
+        font-size:0.7rem;
+    }
+    h1{
+        font-size:2rem;
+        line-height:2rem;
+    }
+    .written{
+        font-size:2rem !important;
+        line-height:2rem !important;
+    }
+}
+
+@media (max-height:450px){
+    p{
+        font-size:0.8rem;
+    }
+}
+
+
+@media(max-height:322px) and (max-width:672px){
+    p{
+        font-size:0.65rem;
+    }
+    h1{
+        font-size:1.5rem;
+        line-height:1.5rem;
+    }
+    .written{
+        font-size:2rem !important;
+        line-height:2rem !important;
+    }
+}
+
+@media only screen 
+  and (min-device-height: 1024px)
+  and (max-device-width: 1365px) {
+    p{
+        font-size:1.5rem;
+    }
+    h1{
+        font-size:4rem;
+        line-height:4rem;
+    }
+    .written{
+        font-size:4rem !important;
+        line-height:4rem !important;
+    }
+}
+
+@media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1112px)
+and (min-device-height:900px){
+    p{
+        font-size:1.2rem;
+    }
+    h1{
+        font-size:3rem;
+        line-height:3rem;
+    }
+    .written{
+        font-size:4rem !important;
+        line-height:4rem !important;
+    }
+}

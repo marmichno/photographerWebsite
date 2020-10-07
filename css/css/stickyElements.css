@@ -1,0 +1,170 @@
+nav{
+    position:absolute;
+    width:9%;
+    height:100%;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items:flex-start;
+    z-index:5;
+}
+
+nav a{
+    padding:1rem;
+    font-size:1.2rem;
+    z-index:5;
+    color:rgba(219, 219, 219);
+    text-decoration: none;
+}
+
+.navActive{
+    color:#2387EA;
+}
+
+#brandLogo{
+    position:absolute;
+    z-index:5;
+    background-image:url(/images/logo/logo.png);
+    background-size:cover;
+    background-position:center;
+    width:8%;
+    height:10%;
+    margin-top:1rem;
+    left:0;
+    animation: stickyFromLeft 0.7s ease-in-out forwards;
+    transform:translateX(-100%);
+    animation-delay:3.2s;
+}
+
+#social-icons{
+    position:absolute;
+    width:8%;
+    height:100%;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items:flex-end;
+    right:0;
+
+}
+
+#social-icons div{
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:center;
+    height:3.5%;
+    width:100%;
+    margin-top:1rem;
+    z-index:5;
+    animation: stickyFromRight 0.7s ease-in-out forwards;
+    transform:translateX(100%);
+    animation-delay:3.2s;
+}
+
+#social-icons div:nth-child(1){
+    background-image:url(/images/socialicons/facebook.png);
+}
+
+#social-icons div:nth-child(2){
+    background-image:url(/images/socialicons/instagram.png);
+}
+
+#social-icons div:nth-child(3){
+    background-image:url(/images/socialicons/linkedin.png);
+}
+
+#social-icons div:nth-child(4){
+    background-image:url(/images/socialicons/snapchat.png);
+}
+
+#social-icons div:nth-child(5){
+    background-image:url(/images/socialicons/twitter.png);
+}
+
+#social-icons div:nth-child(6){
+    background-image:url(/images/socialicons/youtube.png);
+}
+
+/* media queries */
+
+@media (max-width: 1672px){
+    nav a{
+        font-size:1rem;
+    }
+    nav{
+        width:8%;
+        margin:0;
+        padding:0;
+    }
+    .written{
+        font-size:2.5rem;
+        line-height:2.5rem;
+    }
+}
+
+@media (max-width: 1244px){
+    nav a{
+        font-size:0.8rem;
+    }
+    #brandLogo{
+        display:none;
+    }
+}
+
+@media (max-width: 1068px){
+    nav{
+        width:100%;
+        height:10%;
+        bottom:0%;
+        position:fixed;
+        flex-direction:row;
+        justify-content:center;
+        align-items:center;
+        background-color:rgba(0, 0, 0, 0.78);
+    }
+    #brandLogo{
+        bottom:0;
+        z-index:6;
+        left:10px;
+    }
+    #social-icons{
+        display:none;
+    }
+}
+@media(max-width: 792px){
+    #brandLogo{
+        width:20%;
+        height:12%;
+        display:none;
+    }
+}
+@media(max-width: 664px){
+    nav a{
+        font-size:0.7rem !important;
+    }
+    #social-icons{
+        display:none;
+    }
+}
+
+@media(max-height:575px){
+    #social-icons div{
+        height:8%;
+    }
+    #brandLogo{
+        display:none;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1112px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-device-height: 1024px)
+  and (max-device-width: 1366px) {
+
+    nav a{
+        font-size:1.5rem !important;
+    }
+
+  }

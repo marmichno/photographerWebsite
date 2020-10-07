@@ -1,0 +1,125 @@
+.slideInFromLeft{
+    animation:animateFromLeft 0.7s ease-in-out forwards;
+}
+
+@keyframes animateFromLeft{
+    from{
+        opacity:0;
+        transform: translateX(-100%);
+    }
+    to{
+        opacity:1;
+        transform: translateX(0%);
+    }
+}
+
+.slideInFromRight{
+    animation:animateFromRight 0.7s ease-in-out forwards;
+}
+
+@keyframes animateFromRight{
+    from{
+        opacity:0;
+        transform: translateX(100%);
+    }
+    to{
+        opacity:1;
+        transform: translateX(0%);
+    }
+}
+
+.slideInFromTop{
+    animation:animateFromTop 0.7s ease-in-out forwards;
+}
+
+@keyframes animateFromTop{
+    from{
+        opacity:0;
+        transform: translateY(-100%);
+    }
+    to{
+        opacity:1;
+        transform: translateY(0%);
+    }
+}
+
+.slideInFromBottom{
+    animation:animateFromBottom 0.7s ease-in-out forwards;
+}
+
+@keyframes animateFromBottom{
+    from{
+        opacity:0;
+        transform: translateY(100%);
+    }
+    to{
+        opacity:1;
+        transform: translateY(0%);
+    }
+}
+
+.displayNone{
+    display:none;
+}
+
+/* slideIn, slideOut for gallery slides */
+
+.slideOut{
+    animation: slideOut 1s ease-in-out forwards;
+}
+
+@keyframes slideOut{
+    0%{
+        opacity:1;
+        transform:scale(1);
+    }
+    100%{
+        opacity:0;
+        transform:scale(0.5);
+    }
+}
+
+.slideIn{
+    animation: slideIn 1.3s ease-in-out forwards;
+}
+
+@keyframes slideIn{
+    from{
+        transform:translateX(150%);
+        opacity:0;
+    }
+    to{
+        transform:translateX(0%);
+        opacity:1;
+    }
+}
+
+/* slideLeft, slideRight for sticky elements */
+
+@keyframes stickyFromLeft{
+    from{
+        transform:translateX(-150%);
+    }
+
+    to{
+        transform:translateX(0%);
+    }
+}
+@keyframes stickyFromBottom{
+    from{
+        transform:translateY(100%);
+    }
+    to{
+        transform:translateY(0%);
+    }
+}
+
+@keyframes stickyFromRight{
+    from{
+        transform:translateX(100%);
+    }
+
+    to{
+        transform:translateX(0%);
+    }
+}
