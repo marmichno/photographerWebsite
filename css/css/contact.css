@@ -177,12 +177,12 @@ textarea{
     }
 }
 
-@media(max-height:322px) and (max-width:672px){
+@media(max-height:300px){
     textarea{
-        height:60px;
+        height:50px;
     }
     .input{
-        margin:0.35rem;
+        margin:0.25rem;
         padding:0.2rem;
     }
     .form button{
