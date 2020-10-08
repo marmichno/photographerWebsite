@@ -107,7 +107,7 @@ textarea{
     }
 }
 
-@media(min-height: 446px) and (max-width: 792px){
+@media(max-height: 900px){
     #contact-me-container{
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(1, 1fr);
@@ -130,7 +130,7 @@ textarea{
     }
 }
 
-@media(max-height: 446px) and (max-width: 622px){
+@media(max-height: 490px){
     .input{
         width:60%;
     }
@@ -139,7 +139,7 @@ textarea{
     }
 }
 
-@media(max-height: 446px) and (min-width:800px){
+@media(max-height: 490px){
     #contact-me-container{
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(1, 1fr);
