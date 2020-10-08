@@ -24,7 +24,7 @@ nav a{
 #brandLogo{
     position:absolute;
     z-index:5;
-    background-image:url(photographerWebsite/images/logo/logo.png);
+    background-image:url(https://raw.githubusercontent.com/marmichno/photographerWebsite/master/images/logo/logo.png);
     background-size:cover;
     background-position:center;
     width:8%;
@@ -62,27 +62,27 @@ nav a{
 }
 
 #social-icons div:nth-child(1){
-    background-image:url(photographerWebsite/images/socialicons/facebook.png);
+    background-image:url(https://raw.githubusercontent.com/marmichno/photographerWebsite/master/images/socialicons/facebook.png);
 }
 
 #social-icons div:nth-child(2){
-    background-image:url(photographerWebsite/images/socialicons/instagram.png);
+    background-image:url(https://raw.githubusercontent.com/marmichno/photographerWebsite/master/images/socialicons/instagram.png);
 }
 
 #social-icons div:nth-child(3){
-    background-image:url(photographerWebsite/images/socialicons/linkedin.png);
+    background-image:url(https://raw.githubusercontent.com/marmichno/photographerWebsite/master/images/socialicons/linkedin.png);
 }
 
 #social-icons div:nth-child(4){
-    background-image:url(photographerWebsite/images/socialicons/snapchat.png);
+    background-image:url(https://raw.githubusercontent.com/marmichno/photographerWebsite/master/images/socialicons/snapchat.png);
 }
 
 #social-icons div:nth-child(5){
-    background-image:url(photographerWebsite/images/socialicons/twitter.png);
+    background-image:url(https://raw.githubusercontent.com/marmichno/photographerWebsite/master/images/socialicons/twitter.png);
 }
 
 #social-icons div:nth-child(6){
-    background-image:url(photographerWebsite/images/socialicons/youtube.png);
+    background-image:url(https://raw.githubusercontent.com/marmichno/photographerWebsite/master/images/socialicons/youtube.png);
 }
 
 /* media queries */
