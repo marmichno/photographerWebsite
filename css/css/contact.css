@@ -1,5 +1,5 @@
 #contact-me{
-    background-image:url(./images/contact-form.jpg);
+    background-image:url(https://raw.githubusercontent.com/marmichno/photographerWebsite/master/images/contact-form.jpg);
 }
 
 #contact-me-container{
@@ -26,7 +26,7 @@
     align-items:center;
     width:70%;
     height:70%;
-    background-image:url(photographerWebsite/images/contact-me-image/contact-me-image.jpg);
+    background-image:url(https://raw.githubusercontent.com/marmichno/photographerWebsite/master/images/contact-me-image/contact-me-image.jpg);
     background-size:cover;
     position:relative;
     opacity: 0.8;
