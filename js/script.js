@@ -1,6 +1,3 @@
-
-
-
 let scrollSnapWrapper = document.getElementById('scroll-snap-wrapper');
 
 
@@ -20,9 +17,11 @@ function inView(element) {
   const elementPosition = element.getBoundingClientRect().top;
 
 
-  if (elementPosition < 200) {
+
+  if (elementPosition < 200 && elementPosition >= -200) {
     return true;
   }
+
   
   return false;
 }
@@ -57,7 +56,6 @@ function animateSections(section){
     aboutMeContainer[1].classList.add('slideInFromRight');
 
     navigation[1].classList.add('navActive');
-
   }
 
   let counter = 0;
@@ -91,9 +89,10 @@ function animateSections(section){
     contactMeContainer[1].classList.add('slideInFromRight');
 
     navigation[4].classList.add('navActive');
-    
   }
+  console.log(section);
 }
+
 
 // Hero image animation
 
