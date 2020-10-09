@@ -44,9 +44,20 @@
     color:rgba(219, 219, 219);
     text-decoration: none;
     opacity: 1 !important;
-    padding-left:0.7rem;
-    padding-right:0.7rem;
-    background-color: rgba(0, 0, 0, 0.733);
+    width:6%;
+    height:10%;
+    cursor:pointer;
+    background-size:contain;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+#left{
+    background-image:url('/photographerWebsite/images/icons/left.png');
+}
+
+#right{
+    background-image:url('/photographerWebsite/images/icons/right.png');
 }
 
 .slides{
