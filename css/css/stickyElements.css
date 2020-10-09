@@ -45,10 +45,19 @@ nav a{
     flex-direction:column;
     align-items:flex-end;
     right:0;
+}
 
+#social-icons div a{
+    width:30%;
+    height:100%;
+    cursor:pointer;
+    background-color:red;
+    position:absolute;
+    opacity:0;
 }
 
 #social-icons div{
+    position:relative;
     background-size:contain;
     background-repeat:no-repeat;
     background-position:center;
@@ -59,10 +68,13 @@ nav a{
     animation: stickyFromRight 0.7s ease-in-out forwards;
     transform:translateX(100%);
     animation-delay:3.2s;
+    display:flex;
+    justify-content:center;
 }
 
 #social-icons div:nth-child(1){
     background-image:url(https://raw.githubusercontent.com/marmichno/photographerWebsite/master/images/socialicons/facebook.png);
+
 }
 
 #social-icons div:nth-child(2){
