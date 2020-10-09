@@ -243,6 +243,11 @@
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: 1fr;
     }
+
+    #arrows a{
+        width:12%;
+        height:17%;
+    }
 }
 
 @media (max-height:600px) and (max-width:1062px){
@@ -254,7 +259,8 @@
         margin:0.5rem;
     }
     #arrows a{
-        font-size:3rem;
+        width:6%;
+        height:17%;
     }
 }
 
