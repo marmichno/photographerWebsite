@@ -139,6 +139,9 @@
     #heroH1{
         margin-bottom:0.5rem;
     }
+    #hero-container p{
+        width:50%;
+    }
 }
 
 @media(max-height:322px) and (max-width:672px){
