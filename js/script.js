@@ -16,8 +16,6 @@ function inView(element) {
 
   const elementPosition = element.getBoundingClientRect().top;
 
-
-
   if (elementPosition < 200 && elementPosition >= -200) {
     return true;
   }
@@ -202,4 +200,16 @@ function slide(){
       right.addEventListener('click', slide);
     },1500)
   }
+}
+
+
+//changing html text depending on media query
+
+const mediaQuery = window.matchMedia('(max-width: 885px)');
+
+if(mediaQuery.matches == true){
+  let servicesP = document.querySelectorAll('.servicesContainers div p');
+    servicesP.forEach(item =>{
+      item.innerText = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.";
+    })
 }

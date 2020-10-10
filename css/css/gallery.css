@@ -72,22 +72,18 @@
     transform:translateX(150%);
 }
 #slide2{
-    background-color:green;
     transform:translateX(150%);
 }
 #slide3{
-    background-color:purple;
     transform:translateX(150%);
 }
 #slide4{
-    background-color:blue;
     transform:translateX(150%);
 }
 
 .slides div{
     background-size:cover;
     background-position:center;
-    transition:all 0.2s ease-in-out;
     overflow:hidden;
 }
 
