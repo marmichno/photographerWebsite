@@ -80,7 +80,10 @@
 }
 @media (max-width: 885px){
     #hero-container{
-        width:90%;
+        width:100%;
+    }
+    #hero-container h1{
+        text-align:center;
     }
 }
 @media (max-width: 1068px){
@@ -115,11 +118,15 @@
 }
 
 
-@media(max-height:350px) and (min-width:600px){
+@media(max-height:500px) and (min-width:600px){
     #hero-wrap{
         display:flex;
         align-items:center;
         justify-content:center;
+    }
+
+    #hero-container h1{
+        letter-spacing:0.1rem;
     }
 
     #hero-container{
