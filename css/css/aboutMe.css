@@ -95,8 +95,9 @@ hr{
         grid-row:1;
     }
     #image{
-        opacity:0.2;
+        opacity:0.15;
         width:100%;
+        height:100%;
     }
     #hr{
         width:100%;
