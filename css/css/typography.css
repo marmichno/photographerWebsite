@@ -28,6 +28,14 @@ p{
     color:rgba(219, 219, 219);
 }
 
+.inputError::placeholder{
+    color:rgb(235, 64, 52);
+}
+
+.inputSuccesful::placeholder{
+    color:rgb(0, 201, 17);
+}
+
 /* media queries */
 
 @media (max-width: 1672px) {

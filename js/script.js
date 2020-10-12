@@ -88,7 +88,6 @@ function animateSections(section){
 
     navigation[4].classList.add('navActive');
   }
-  console.log(section);
 }
 
 
