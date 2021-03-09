@@ -20,7 +20,7 @@ Simple landing page for showcasing photographer portfolio
 Download and install: 
 - npm from https://www.npmjs.com/get-npm
 
-And run those comands in project directory:
+And run this command in project directory:
 ```sh
 git clone https://github.com/marmichno/photographerWebsite.git
 ```
